@@ -9,11 +9,11 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://genaistudio.com/openapi.json",
+    "url": "https://genai-studio-sepia.vercel.app/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://genaistudio.com/logo.png",
+  "logo_url": "https://genai-studio-sepia.vercel.app/logo.png",
   "contact_email": "info@visionetsystems.com",
-  "legal_info_url": "https://genaistudio.com/legal"
+  "legal_info_url": "https://genai-studio-sepia.vercel.app/legal"
 }
 

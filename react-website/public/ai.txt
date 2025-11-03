@@ -3,7 +3,7 @@
 
 # Website Information
 Site-Name: Visionet GenAI Studio
-Site-URL: https://genaistudio.com
+Site-URL: https://genai-studio-sepia.vercel.app
 Site-Description: Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support
 
 # Contact Information

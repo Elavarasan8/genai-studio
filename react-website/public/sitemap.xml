@@ -7,80 +7,80 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://genaistudio.com/</loc>
+    <loc>https://genai-studio-sepia.vercel.app/</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://genaistudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genai-studio-sepia.vercel.app/"/>
   </url>
   
   <!-- About Page -->
   <url>
-    <loc>https://genaistudio.com/about</loc>
+    <loc>https://genai-studio-sepia.vercel.app/about</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://genaistudio.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genai-studio-sepia.vercel.app/about"/>
   </url>
   
   <!-- Services Page -->
   <url>
-    <loc>https://genaistudio.com/services</loc>
+    <loc>https://genai-studio-sepia.vercel.app/services</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://genaistudio.com/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genai-studio-sepia.vercel.app/services"/>
   </url>
   
   <!-- Solutions Page -->
   <url>
-    <loc>https://genaistudio.com/solutions</loc>
+    <loc>https://genai-studio-sepia.vercel.app/solutions</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://genaistudio.com/solutions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genai-studio-sepia.vercel.app/solutions"/>
   </url>
   
   <!-- Contact Page -->
   <url>
-    <loc>https://genaistudio.com/contact</loc>
+    <loc>https://genai-studio-sepia.vercel.app/contact</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://genaistudio.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genai-studio-sepia.vercel.app/contact"/>
   </url>
   
   <!-- Special Resources for AI Agents -->
   <url>
-    <loc>https://genaistudio.com/siteinfo.json</loc>
+    <loc>https://genai-studio-sepia.vercel.app/siteinfo.json</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://genaistudio.com/knowledge.json</loc>
+    <loc>https://genai-studio-sepia.vercel.app/knowledge.json</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://genaistudio.com/ai.txt</loc>
+    <loc>https://genai-studio-sepia.vercel.app/ai.txt</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://genaistudio.com/.well-known/ai-plugin.json</loc>
+    <loc>https://genai-studio-sepia.vercel.app/.well-known/ai-plugin.json</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://genaistudio.com/feed.xml</loc>
+    <loc>https://genai-studio-sepia.vercel.app/feed.xml</loc>
     <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
