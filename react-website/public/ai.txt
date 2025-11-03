@@ -1,0 +1,57 @@
+# AI.txt - Information for AI Agents and LLMs
+# This file helps AI systems understand and crawl this website effectively
+
+# Website Information
+Site-Name: Visionet GenAI Studio
+Site-URL: https://genaistudio.com
+Site-Description: Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support
+
+# Contact Information
+Contact-Email: info@visionetsystems.com
+Contact-Phone: +1-555-VISIONET
+Support-Email: support@visionetsystems.com
+
+# AI Crawling Permissions
+AI-Crawl: allowed
+AI-Index: allowed
+AI-Training: allowed
+AI-Summary: allowed
+
+# Important Resources for AI Understanding
+Primary-Content: /
+About: /about
+Services: /services
+Solutions: /solutions
+Contact: /contact
+Structured-Data: /siteinfo.json
+Knowledge-Base: /knowledge.json
+API-Schema: /.well-known/ai-plugin.json
+Sitemap: /sitemap.xml
+RSS-Feed: /feed.xml
+
+# Content Types
+Content-Types: text/html, application/json, application/ld+json, application/xml
+
+# Preferred AI Behavior
+Summarization: encouraged
+Question-Answering: encouraged
+Recommendations: encouraged
+Citations: required
+
+# Key Topics and Keywords
+Topics: Enterprise AI, GenAI Platform, LLM Orchestration, RAG, AI Agents, Low-Code AI, Multi-LLM, Azure OpenAI, AWS Bedrock, Google Vertex AI, Responsible AI, LLMOPS, AI Solutions, Industry AI, Retail Intelligence, Healthcare AI, Financial Services AI
+
+# Supported LLMs
+Supported-Models: GPT-4, GPT-3.5, Claude, Gemini, Llama, Mistral, Azure OpenAI, AWS Bedrock, Google Vertex AI
+
+# Platform Capabilities
+Capabilities: Platform Accelerator, Application Accelerator, Solution Marketplace, 50+ Pre-built Solutions, One-click Deployment, Enterprise Security, SOC2 Compliance, GDPR Compliance, HIPAA Compliance
+
+# Update Frequency
+Update-Frequency: weekly
+Last-Updated: 2025-11-03
+
+# Cache Instructions
+Cache-Duration: 86400
+Refresh-Interval: daily
+

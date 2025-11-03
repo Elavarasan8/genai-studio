@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Visionet GenAI Studio",
+  "name_for_model": "genaistudio",
+  "description_for_human": "Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support.",
+  "description_for_model": "Visionet GenAI Studio is an enterprise GenAI platform that provides three core components: GenAI Platform Accelerator (enterprise blueprint with one-click deployment), GenAI Application Accelerator (low-code/no-code development), and GenAI Solution Marketplace (50+ pre-built solutions). The platform supports multiple LLMs including Azure OpenAI, AWS Bedrock, Google Vertex AI, and offers features like RAG, AI agents, LLMOPS, responsible AI framework, and enterprise security with SOC2, GDPR, HIPAA compliance.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://genaistudio.com/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://genaistudio.com/logo.png",
+  "contact_email": "info@visionetsystems.com",
+  "legal_info_url": "https://genaistudio.com/legal"
+}
+

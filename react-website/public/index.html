@@ -9,6 +9,20 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="sitemap" type="application/xml" href="%PUBLIC_URL%/sitemap.xml" />
     
+    <!-- AI Crawler Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="ai-content-declaration" content="informational" />
+    
+    <!-- Structured Data Links -->
+    <link rel="alternate" type="application/json" href="%PUBLIC_URL%/siteinfo.json" />
+    <link rel="alternate" type="application/json" href="%PUBLIC_URL%/knowledge.json" />
+    <link rel="alternate" type="application/rss+xml" title="GenAI Studio Updates" href="%PUBLIC_URL%/feed.xml" />
+    
+    <!-- AI Plugin Manifest -->
+    <link rel="ai-plugin" href="%PUBLIC_URL%/.well-known/ai-plugin.json" />
+    
     <!-- Preconnect to speed up font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

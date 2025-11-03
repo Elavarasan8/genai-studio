@@ -1,6 +1,6 @@
-# robots.txt for GenAI Studio
-# Allows all major AI crawlers and search engines to index the site
+# Robots.txt for GenAI Studio - Optimized for AI Agents & LLMs
 
+# Allow all bots and AI agents
 User-agent: *
 Allow: /
 
@@ -23,24 +23,37 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+User-agent: cohere-ai
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Bingbot
+User-agent: YouBot
 Allow: /
 
-User-agent: Googlebot
+User-agent: Omgilibot
 Allow: /
 
-# Disallow sensitive areas (if any)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /.git/
+User-agent: FacebookBot
+Allow: /
 
-# Crawl delay (optional)
-Crawl-delay: 1
+User-agent: Diffbot
+Allow: /
 
 # Sitemap location
 Sitemap: https://genaistudio.com/sitemap.xml
-Sitemap: https://genaistudio.com/sitemap-blog.xml
 
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
+# Important pages for AI understanding
+Allow: /index.html
+Allow: /about
+Allow: /services
+Allow: /solutions
+Allow: /contact
+Allow: /siteinfo.json
+Allow: /knowledge.json
+Allow: /ai.txt
+Allow: /.well-known/ai-plugin.json

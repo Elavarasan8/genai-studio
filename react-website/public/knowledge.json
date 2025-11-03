@@ -1,167 +1,213 @@
 {
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "name": "GenAI Studio Knowledge Base",
-  "description": "Comprehensive knowledge base for AI agents about GenAI Studio platform, capabilities, and services",
   "version": "1.0",
-  "datePublished": "2025-10-30",
-  "publisher": {
-    "@type": "Organization",
-    "name": "GenAI Studio"
+  "type": "ai-knowledge-base",
+  "organization": {
+    "name": "Visionet GenAI Studio",
+    "legalName": "Visionet Systems Inc.",
+    "url": "https://genaistudio.com",
+    "description": "Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support",
+    "foundingDate": "2023",
+    "industry": "Enterprise AI Software",
+    "numberOfEmployees": "500+",
+    "headquarters": "San Francisco, CA, USA"
   },
-  "about": {
-    "@type": "SoftwareApplication",
-    "name": "GenAI Studio",
-    "applicationCategory": "Enterprise AI Platform",
-    "operatingSystem": "Web-based, Cloud, On-premise",
-    "description": "GenAI Studio is an enterprise-grade platform for building, deploying, and managing Generative AI applications. It provides comprehensive tools for AI agent development, LLM integration, prompt engineering, and enterprise-scale deployment with advanced security and compliance features."
-  },
-  "mainEntity": {
-    "@type": "ItemList",
-    "name": "GenAI Studio Core Capabilities",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "Thing",
-          "name": "AI Agent Development",
-          "description": "Build intelligent AI agents with autonomous decision-making capabilities, multi-step reasoning, and tool integration. Features include pre-built templates, visual workflow designer, memory management, and testing environments."
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "Thing",
-          "name": "LLM Integration",
-          "description": "Model-agnostic platform supporting GPT-4, Claude, Gemini, Llama, Mistral, and custom models. Features intelligent model routing, cost optimization, and seamless switching between providers without code changes."
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "Thing",
-          "name": "Prompt Engineering",
-          "description": "Advanced prompt design tools with version control, A/B testing, template library, performance analytics, and collaborative editing for creating high-performance prompts."
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "Thing",
-          "name": "RAG and Knowledge Base",
-          "description": "Build custom knowledge bases with Retrieval-Augmented Generation. Features document ingestion, semantic search, citation tracking, and real-time updates for enabling AI to access organizational knowledge."
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "Thing",
-          "name": "Enterprise Security",
-          "description": "Enterprise-grade security with end-to-end encryption, RBAC, SOC2/GDPR/HIPAA compliance, audit logs, and data residency options for protecting sensitive information."
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "Thing",
-          "name": "Scalable Deployment",
-          "description": "Production-ready infrastructure with auto-scaling, global CDN, 99.9% uptime SLA, load balancing, and support for cloud, on-premise, and hybrid deployments."
-        }
-      }
-    ]
-  },
-  "industryUseCase": [
+  "products": [
     {
-      "@type": "Thing",
-      "name": "Customer Service Automation",
-      "description": "Automate support with AI agents that handle inquiries, resolve issues, and escalate complex cases. Reduces response times by 80% while improving customer satisfaction."
+      "name": "GenAI Platform Accelerator",
+      "category": "Platform",
+      "description": "Enterprise blueprint for GenAI platform with integrated tools & technology. One-click deployment across cloud providers with Model Switchboard for LLM access across hyperscalers.",
+      "features": [
+        "One-click deployment",
+        "Multi-cloud support (Azure, AWS, GCP)",
+        "Model Switchboard for LLM access",
+        "AD Integration",
+        "Guardrails and security",
+        "LLMOPS with visibility and analytics",
+        "Cost tracking and reporting"
+      ],
+      "pricing": "Enterprise"
     },
     {
-      "@type": "Thing",
-      "name": "Sales and Marketing",
-      "description": "Generate personalized content, automate lead qualification, and provide AI-powered insights for sales teams to increase conversion rates."
+      "name": "GenAI Application Accelerator",
+      "category": "Development Platform",
+      "description": "Low-code/No-code development platform with visual drag-and-drop interface for building custom AI applications.",
+      "features": [
+        "Visual drag-and-drop interface",
+        "RAG (Retrieval Augmented Generation)",
+        "AI agents and copilots",
+        "Prompt management",
+        "Experimentation playground",
+        "Rapid prototyping",
+        "Version control",
+        "A/B testing"
+      ],
+      "pricing": "Enterprise"
     },
     {
-      "@type": "Thing",
-      "name": "HR and Recruitment",
-      "description": "Streamline hiring with AI-powered resume screening, candidate engagement, and onboarding automation to find best talent faster."
-    },
-    {
-      "@type": "Thing",
-      "name": "Legal and Compliance",
-      "description": "Analyze contracts, ensure compliance, and automate legal research to reduce risk and accelerate legal processes."
+      "name": "GenAI Solution Marketplace",
+      "category": "Solutions",
+      "description": "50+ pre-built solutions ready for deployment across industries, productivity, and engineering use cases.",
+      "solutions": [
+        {
+          "category": "Industry Solutions",
+          "items": ["Retail Intelligence", "Healthcare & Life Sciences", "Financial Services", "Manufacturing"]
+        },
+        {
+          "category": "Productivity Solutions",
+          "items": ["GTM Copilot", "Delivery & HR Copilot", "Cloud Copilot"]
+        },
+        {
+          "category": "Engineering Solutions",
+          "items": ["Security Copilot", "Data & Analytics", "ITOPS"]
+        },
+        {
+          "category": "Generative Search",
+          "items": ["Enterprise knowledge search", "Semantic search", "Context-aware responses"]
+        }
+      ],
+      "pricing": "Per solution"
     }
   ],
-  "keyFeature": [
-    "AI Agent Development with autonomous capabilities",
-    "Model-agnostic LLM integration (GPT-4, Claude, Gemini, Llama)",
-    "Advanced prompt engineering studio with A/B testing",
-    "RAG and knowledge base management",
-    "Enterprise security (SOC2, GDPR, HIPAA compliance)",
-    "Auto-scaling deployment infrastructure",
-    "Real-time analytics and monitoring",
-    "Integration hub for enterprise systems",
-    "24/7 support and 99.9% uptime SLA",
-    "Cost optimization and intelligent caching"
-  ],
-  "benefits": [
-    "10x faster time to market with pre-built components",
-    "Up to 60% cost reduction through optimization",
-    "Enterprise-ready with security and compliance",
-    "No vendor lock-in with model-agnostic architecture",
-    "Reduced support costs by up to 70%",
-    "80% query automation rate",
-    "35% increase in customer satisfaction",
-    "Response time reduction from hours to seconds"
-  ],
-  "technicalDetails": {
-    "supportedModels": [
-      "GPT-4",
-      "GPT-3.5",
-      "Claude 3",
-      "Claude 2",
-      "Gemini Pro",
-      "Llama 2",
-      "Mistral",
-      "Custom Models"
+  "capabilities": {
+    "llm_support": [
+      "Azure OpenAI (GPT-4, GPT-3.5)",
+      "AWS Bedrock (Claude, Llama, Titan)",
+      "Google Vertex AI (Gemini, PaLM)",
+      "OpenAI (GPT-4, GPT-3.5-turbo)",
+      "Open-source models (Llama, Mistral)"
     ],
-    "deploymentOptions": [
-      "Cloud (AWS, Azure, GCP)",
-      "On-Premise",
-      "Hybrid"
+    "core_features": [
+      "Multi-LLM orchestration",
+      "RAG (Retrieval Augmented Generation)",
+      "AI Agents and Copilots",
+      "Low-code/No-code development",
+      "Prompt engineering studio",
+      "LLMOPS and monitoring",
+      "Cost optimization",
+      "Enterprise security (SOC2, GDPR, HIPAA)",
+      "Role-based access control",
+      "Audit logging",
+      "Data processing and embeddings",
+      "Vector databases",
+      "Semantic search",
+      "Experimentation playground",
+      "Analytics and reporting"
     ],
-    "compliance": [
-      "SOC2 Type II",
-      "GDPR",
-      "HIPAA",
-      "ISO 27001"
-    ],
-    "integrations": [
-      "Salesforce",
-      "Microsoft 365",
-      "Google Workspace",
-      "SAP",
-      "Oracle",
-      "ServiceNow",
-      "Slack",
-      "Microsoft Teams"
+    "deployment": [
+      "Cloud (Azure, AWS, GCP)",
+      "On-premise",
+      "Hybrid",
+      "One-click deployment",
+      "Auto-scaling",
+      "99.9% uptime SLA"
     ]
   },
-  "pricingModel": "Subscription-based with free trial available",
-  "targetAudience": "Enterprise organizations across all industries seeking to implement Generative AI solutions",
-  "competitiveAdvantages": [
-    "Model-agnostic architecture prevents vendor lock-in",
-    "Comprehensive enterprise security and compliance",
-    "Rapid deployment with pre-built templates",
-    "Cost optimization through intelligent model selection",
-    "24/7 support with enterprise SLA",
-    "Proven track record with Fortune 500 companies"
-  ]
+  "useCases": {
+    "customer_service": {
+      "description": "Intelligent customer support automation with 80% query automation and 70% cost reduction",
+      "benefits": ["24/7 availability", "Instant responses", "Multi-channel support", "Smart escalation"]
+    },
+    "sales_marketing": {
+      "description": "AI-powered revenue growth with lead qualification and personalized content",
+      "benefits": ["Lead scoring", "Email generation", "Sales intelligence", "Campaign optimization", "40% conversion increase"]
+    },
+    "human_resources": {
+      "description": "Intelligent talent management with AI-powered screening and onboarding",
+      "benefits": ["Resume screening", "Interview scheduling", "Personalized onboarding", "50% faster hiring"]
+    },
+    "legal_compliance": {
+      "description": "Automated legal intelligence with contract analysis and compliance monitoring",
+      "benefits": ["Contract analysis", "Risk identification", "Compliance checks", "Document drafting"]
+    },
+    "healthcare": {
+      "description": "Patient care and administrative efficiency with HIPAA-compliant AI",
+      "benefits": ["Patient triage", "Appointment scheduling", "Medical record analysis", "40% satisfaction improvement"]
+    },
+    "financial_services": {
+      "description": "Intelligent financial operations with fraud detection and risk assessment",
+      "benefits": ["Real-time fraud detection", "Risk analysis", "24/7 banking support", "Regulatory compliance"]
+    }
+  },
+  "benefits": {
+    "development_speed": "10X faster AI application development",
+    "cost_reduction": "60% cost savings through intelligent LLM routing",
+    "security": "Enterprise-grade with SOC2, GDPR, HIPAA compliance",
+    "scale": "Deployed across Fortune 500 companies",
+    "reliability": "99.9% uptime SLA with auto-scaling"
+  },
+  "pricing": {
+    "model": "Enterprise subscription",
+    "options": ["Platform license", "Per-solution pricing", "Custom enterprise agreements"],
+    "trial": "Demo available upon request"
+  },
+  "support": {
+    "availability": "24/7 dedicated support",
+    "channels": ["Email", "Phone", "Chat", "Ticketing system"],
+    "sla": "Enterprise SLA with guaranteed response times",
+    "training": "Comprehensive training and workshops",
+    "documentation": "Full API documentation and guides"
+  },
+  "contact": {
+    "email": "info@visionetsystems.com",
+    "sales": "sales@visionetsystems.com",
+    "support": "support@visionetsystems.com",
+    "phone": "+1-555-VISIONET",
+    "website": "https://genaistudio.com"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/visionet-systems",
+    "twitter": "https://twitter.com/visionetsystems"
+  },
+  "faqs": [
+    {
+      "question": "What is Visionet GenAI Studio?",
+      "answer": "Visionet GenAI Studio is a unified enterprise GenAI platform with three core components: GenAI Platform Accelerator (enterprise blueprint with one-click deployment), GenAI Application Accelerator (low-code/no-code development), and GenAI Solution Marketplace (50+ pre-built solutions across industries, productivity, and engineering)."
+    },
+    {
+      "question": "What LLM models does it support?",
+      "answer": "The platform supports Azure OpenAI (GPT-4, GPT-3.5), AWS Bedrock (Claude, Llama, Titan), Google Vertex AI (Gemini, PaLM), OpenAI, and open-source models like Mistral. The Model Switchboard enables intelligent routing across all providers."
+    },
+    {
+      "question": "Is it enterprise-ready?",
+      "answer": "Yes, the platform is enterprise-ready with SOC2, GDPR, and HIPAA compliance, 99.9% uptime SLA, role-based access control, audit logging, and deployment options including cloud, on-premise, and hybrid."
+    },
+    {
+      "question": "How quickly can I deploy AI applications?",
+      "answer": "With our low-code/no-code platform and pre-built solutions, you can deploy AI applications 10X faster - reducing development time from months to weeks. Many solutions offer one-click deployment."
+    },
+    {
+      "question": "What industries do you serve?",
+      "answer": "We serve multiple industries including Retail, Healthcare & Life Sciences, Financial Services, Manufacturing, Technology, and more with industry-specific pre-built solutions."
+    }
+  ],
+  "keywords": [
+    "Enterprise AI",
+    "GenAI Platform",
+    "LLM Orchestration",
+    "Multi-LLM",
+    "RAG",
+    "AI Agents",
+    "Low-Code AI",
+    "No-Code AI",
+    "Azure OpenAI",
+    "AWS Bedrock",
+    "Google Vertex AI",
+    "LLMOPS",
+    "Responsible AI",
+    "Enterprise Security",
+    "SOC2 Compliance",
+    "GDPR Compliance",
+    "HIPAA Compliance",
+    "AI Solutions",
+    "Customer Service AI",
+    "Sales AI",
+    "HR AI",
+    "Healthcare AI",
+    "Financial Services AI",
+    "Retail AI"
+  ],
+  "lastUpdated": "2025-11-03",
+  "crawlable": true,
+  "indexable": true,
+  "aiTrainingAllowed": true
 }
-
