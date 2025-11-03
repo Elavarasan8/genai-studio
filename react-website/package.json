@@ -13,16 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snap",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "reactSnap": {
-    "inlineCss": true,
-    "minifyHtml": {
-      "collapseWhitespace": false,
-      "removeComments": false
-    }
   },
   "eslintConfig": {
     "extends": [

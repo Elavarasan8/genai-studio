@@ -1,0 +1,74 @@
+{
+  "buildCommand": "cd react-website && npm install && npm run build",
+  "outputDirectory": "react-website/build",
+  "framework": "create-react-app",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/ai.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
