@@ -36,8 +36,7 @@ Thumbs.db
 .idea/
 *.sublime-*
 
-# Documentation markdown files
-*-SUMMARY.md
+# Documentation markdown files (but keep AEO docs)
 UPDATE-SUMMARY.md
 COMPREHENSIVE-UPDATE-SUMMARY.md
 FINAL-COMPLETE-UPDATE.md
