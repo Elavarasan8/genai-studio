@@ -1,0 +1,178 @@
+# GenAI Studio - Apache .htaccess Configuration
+# Optimize for SEO, Security, and Performance
+
+# ====================================
+# 1. HTTPS Redirect (Force SSL)
+# ====================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ====================================
+# 2. Security Headers
+# ====================================
+<IfModule mod_headers.c>
+    # X-Frame-Options: Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # X-Content-Type-Options: Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # X-XSS-Protection: Enable XSS filter
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Referrer Policy
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Permissions Policy
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    
+    # Content Security Policy
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;"
+    
+    # Strict Transport Security (HSTS)
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+# ====================================
+# 3. Compression (Gzip)
+# ====================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+    AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+    AddOutputFilterByType DEFLATE application/xml application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ====================================
+# 4. Browser Caching
+# ====================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    
+    # Fonts
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    
+    # HTML and XML
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/xml "access plus 1 hour"
+    ExpiresByType application/xml "access plus 1 hour"
+    
+    # Default
+    ExpiresDefault "access plus 1 month"
+</IfModule>
+
+# ====================================
+# 5. Cache Control Headers
+# ====================================
+<IfModule mod_headers.c>
+    # Cache static assets
+    <FilesMatch "\.(jpg|jpeg|png|gif|svg|webp|ico|css|js|woff|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    
+    # Don't cache HTML
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+# ====================================
+# 6. MIME Types
+# ====================================
+<IfModule mod_mime.c>
+    AddType application/javascript js
+    AddType text/css css
+    AddType image/svg+xml svg svgz
+    AddType application/font-woff woff
+    AddType application/font-woff2 woff2
+    AddType application/xml xml
+    AddType application/rss+xml rss
+    AddType application/manifest+json webmanifest
+</IfModule>
+
+# ====================================
+# 7. Directory Index
+# ====================================
+DirectoryIndex index.html index.htm
+
+# ====================================
+# 8. Error Pages
+# ====================================
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+# ====================================
+# 9. URL Rewriting for Clean URLs
+# ====================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Remove .html extension
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.+)$ $1.html [L,QSA]
+    
+    # Redirect index.html to root
+    RewriteCond %{THE_REQUEST} ^.*/index\.html
+    RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+</IfModule>
+
+# ====================================
+# 10. Block Access to Sensitive Files
+# ====================================
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "(\.htaccess|\.htpasswd|\.git|\.env|composer\.json|package\.json)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# ====================================
+# 11. Allow AI Crawlers
+# ====================================
+# This is already handled in robots.txt, but we ensure
+# there are no restrictions at the server level
+
+# ====================================
+# 12. Charset UTF-8
+# ====================================
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml .json .rss
+
+# ====================================
+# 13. ETags (Disable for better caching)
+# ====================================
+FileETag None
+
+# ====================================
+# 14. Server Signature (Hide for security)
+# ====================================
+ServerSignature Off
+

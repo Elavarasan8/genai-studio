@@ -1,0 +1,44 @@
+# Python
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PDFs and PPTs
+*.pdf
+*.pptx
+*.ppt
+
+# Generated images
+generated_image_*.png
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Documentation markdown files
+*-SUMMARY.md
+UPDATE-SUMMARY.md
+COMPREHENSIVE-UPDATE-SUMMARY.md
+FINAL-COMPLETE-UPDATE.md
+

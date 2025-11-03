@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Visionet GenAI Studio",
+  "alternateName": "GenAI Studio Platform",
+  "url": "https://genaistudio.com",
+  "logo": "https://genaistudio.com/images/logo.png",
+  "description": "Visionet GenAI Studio is a unified enterprise GenAI platform with Platform Accelerator for one-click deployment, Application Accelerator for low-code/no-code development, and Solution Marketplace with 50+ pre-built solutions across industries, productivity, and engineering domains.",
+  "foundingDate": "2023",
+  "slogan": "Unified Enterprise GenAI Platform",
+  "keywords": [
+    "Visionet GenAI Studio",
+    "Enterprise GenAI Platform",
+    "Low Code AI Development",
+    "No Code AI",
+    "Multi-LLM Platform",
+    "Model Switchboard",
+    "RAG Applications",
+    "AI Agents",
+    "LLM Orchestration",
+    "Azure OpenAI",
+    "AWS Bedrock",
+    "GPT-4",
+    "Claude 3.5",
+    "Llama 3.1",
+    "Responsible AI Framework",
+    "LLMOPS"
+  ],
+  "contact": {
+    "@type": "ContactPoint",
+    "telephone": "+1-555-VISIONET",
+    "contactType": "Customer Service",
+    "email": "info@visionetsystems.com",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["English"],
+    "contactOption": ["TollFree"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "United States",
+    "addressCountry": "US"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/visionet-systems",
+    "twitter": "https://twitter.com/visionetsystems"
+  },
+  "sameAs": [
+    "https://linkedin.com/company/visionet-systems",
+    "https://twitter.com/visionetsystems"
+  ],
+  "services": [
+    {
+      "name": "GenAI Platform Accelerator",
+      "description": "Enterprise blueprint for GenAI platform with integrated tools & technology. One-click deployment across cloud providers with Model Switchboard for LLM access across hyperscalers. AD Integrated with guardrails, LLMOPS, visibility, analytics & reporting."
+    },
+    {
+      "name": "GenAI Application Accelerator",
+      "description": "Low code/No code based GenAI app development. Build custom RAG apps, chatbots, and AI agents with integrated workflow automation. Playground to test applications and publish to multiple channels."
+    },
+    {
+      "name": "GenAI Solution Marketplace",
+      "description": "Solution Jumpstart with 50+ pre-built solutions including Industry Solutions, Productivity Solutions, and Engineering Solutions. Re-usable agents & prompts."
+    },
+    {
+      "name": "LLM Orchestration",
+      "description": "Advanced RAG (single and multi-agent), prompts engineering, chaining, routing, and memory management with LLM cache, logging, and validation."
+    },
+    {
+      "name": "Data Processing & Embeddings",
+      "description": "Data transformation, augmentation, pipelines and storage with support for databases, vector databases, SharePoint, Salesforce, and object storage."
+    },
+    {
+      "name": "Responsible AI Framework",
+      "description": "Guardrails for input/output validation, PII detection, bias detection, fairness, robustness, truthfulness, and safety with privacy preservation."
+    }
+  ],
+  "industries": [
+    "Insurance",
+    "Retail & E-Commerce",
+    "Real Estate",
+    "Financial Services",
+    "Healthcare",
+    "Manufacturing",
+    "Technology",
+    "Engineering"
+  ],
+  "features": {
+    "ai_models_supported": [
+      "GPT-4",
+      "Claude 3.5",
+      "Llama 3.1 8b",
+      "Azure OpenAI",
+      "AWS Bedrock",
+      "Cohere Command",
+      "AI21 Jurassic",
+      "Anthropic Claude"
+    ],
+    "deployment_options": [
+      "Cloud",
+      "One-Click Deployment",
+      "Multi-Cloud (Azure, AWS, GCP)"
+    ],
+    "security_features": [
+      "AD Integrated",
+      "Role-Based Access Control (RBAC)",
+      "Fine-grained data access",
+      "Multi-tenancy",
+      "PII Detection",
+      "Data Anonymization",
+      "Privacy Preservation"
+    ],
+    "integrations": [
+      "MySQL Database",
+      "Vector Database",
+      "SharePoint",
+      "Salesforce",
+      "Object Storage",
+      "External APIs/Plugins"
+    ],
+    "application_types": [
+      "Chat",
+      "RAG (Retrieval-Augmented Generation)",
+      "AI Assistants",
+      "Chatbots",
+      "Multi-Agent Systems"
+    ]
+  },
+  "solutions": {
+    "industry_solutions": [
+      "Claims policy creation assistant",
+      "Insurance claim management agent",
+      "Product image/description/catalogue generation",
+      "Fashion stylist bot",
+      "Virtual escrow assistant"
+    ],
+    "productivity_solutions": [
+      "Generative search",
+      "Employee assistance (Ask RMG, Ask HR, Ask Finance)",
+      "Customer support & service",
+      "Digital marketing content generation",
+      "IDP - Chat with PDF, Q&A, entity extraction",
+      "Research assistants"
+    ],
+    "engineering_solutions": [
+      "Architecture design document creation",
+      "GenAI pair programming",
+      "Test case/script automation generation",
+      "DB query generator",
+      "IaC generation",
+      "Pipeline creation",
+      "GenAI powered CloudOps",
+      "AIOPS for service management"
+    ]
+  },
+  "pricing": {
+    "model": "Enterprise",
+    "contact_for_pricing": true,
+    "currency": "USD"
+  },
+  "support": {
+    "channels": ["Email", "Phone", "Documentation"],
+    "availability": "Business Hours"
+  }
+}
+

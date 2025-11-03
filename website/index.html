@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Visionet GenAI Studio - Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support. Accelerate AI implementation with Platform Accelerator, Application Accelerator, and Solution Marketplace.">
+    <meta name="keywords" content="Visionet GenAI Studio, Enterprise AI Platform, Low Code AI, GenAI Solutions, Multi-LLM Platform, RAG, AI Agents, LLM Orchestration, Azure OpenAI, AWS Bedrock">
+    <meta name="author" content="Visionet Systems">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Visionet GenAI Studio - Unified Enterprise GenAI Platform">
+    <meta property="og:description" content="Low-code GenAI platform with 50+ pre-built solutions. Deploy AI applications with one-click across cloud providers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://genaistudio.com/">
+    <meta property="og:image" content="https://genaistudio.com/images/og-image.jpg">
+    <meta property="og:site_name" content="Visionet GenAI Studio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Visionet GenAI Studio - Enterprise GenAI Platform">
+    <meta name="twitter:description" content="Unified GenAI platform with low-code development and 50+ pre-built solutions.">
+    <meta name="twitter:image" content="https://genaistudio.com/images/twitter-card.jpg">
+    
+    <title>Visionet GenAI Studio | Unified Enterprise GenAI Platform with Low-Code Development</title>
+    
+    <!-- JSON-LD Structured Data for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Visionet GenAI Studio",
+      "url": "https://genaistudio.com",
+      "logo": "https://genaistudio.com/images/logo.png",
+      "description": "Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support",
+      "sameAs": [
+        "https://linkedin.com/company/visionet-systems",
+        "https://twitter.com/visionetsystems"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-VISIONET",
+        "contactType": "Customer Service",
+        "email": "info@visionetsystems.com",
+        "availableLanguage": ["English"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      }
+    }
+    </script>
+    
+    <!-- JSON-LD Structured Data for WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Visionet GenAI Studio",
+      "url": "https://genaistudio.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://genaistudio.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- JSON-LD Structured Data for Software Application -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Visionet GenAI Studio Platform",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web, Cloud",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Unified Enterprise GenAI platform with Platform Accelerator, Application Accelerator, and Solution Marketplace with 50+ pre-built solutions"
+    }
+    </script>
+    
+    <!-- JSON-LD FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Visionet GenAI Studio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visionet GenAI Studio is a unified enterprise GenAI platform with three core components: GenAI Platform Accelerator (enterprise blueprint with one-click deployment), GenAI Application Accelerator (low-code/no-code development), and GenAI Solution Marketplace (50+ pre-built solutions across industries, productivity, and engineering)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What LLM models does Visionet GenAI Studio support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GenAI Studio supports multiple LLM models including GPT-4, Claude 3.5, Llama 3.1, Azure OpenAI, AWS Bedrock, Cohere Command, AI21 Jurassic, and Anthropic Claude through a unified Model Switchboard accessible across hyperscalers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the low-code/no-code development work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GenAI Studio's Application Accelerator provides low-code/no-code tools to build custom RAG apps, chatbots, and AI agents with integrated workflow automation. It includes a playground to test applications, ability to publish to multiple channels, integrated guardrails, and AI refinement capabilities without requiring extensive coding knowledge."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="canonical" href="https://genaistudio.com/">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="GenAI Studio Logo - Enterprise Generative AI Platform">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Visionet GenAI Studio</h1>
+                <p class="hero-subtitle">Unified Enterprise GenAI Platform - Accelerate Your AI Journey with Low-Code Development & Pre-Built Solutions</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Capabilities Section -->
+        <section class="capabilities">
+            <div class="container">
+                <h2>Three Powerful Components</h2>
+                <p class="section-intro">Comprehensive GenAI Studio platform with accelerators, development tools, and marketplace solutions</p>
+                
+                <div class="capability-grid">
+                    <article class="capability-card">
+                        <div class="icon">🚀</div>
+                        <h3>GenAI Platform Accelerator</h3>
+                        <p>Enterprise blueprint for GenAI platform with integrated tools & technology. One-click deployment across cloud providers with Model Switchboard for LLM access across hyperscalers. AD Integrated with guardrails, LLMOPS, visibility, analytics & reporting.</p>
+                    </article>
+                    
+                    <article class="capability-card">
+                        <div class="icon">⚡</div>
+                        <h3>GenAI Application Accelerator</h3>
+                        <p>Low code/No code based GenAI app development. Build custom RAG apps, chatbots, and AI agents with integrated workflow automation. Playground to test applications, publish to multiple channels with integrated guardrails and AI refinement.</p>
+                    </article>
+                    
+                    <article class="capability-card">
+                        <div class="icon">🏪</div>
+                        <h3>GenAI Solution Marketplace</h3>
+                        <p>Solution Jumpstart with 50+ pre-built solutions including Industry Solutions, Productivity Solutions, and Engineering Solutions. Re-usable agents & prompts to accelerate your AI implementation.</p>
+                    </article>
+                    
+                    <article class="capability-card">
+                        <div class="icon">🔗</div>
+                        <h3>Multi-LLM Support</h3>
+                        <p>Access diverse LLM models including GPT-4, Claude 3.5, Llama 3.1, Azure OpenAI, AWS Bedrock, Cohere, AI21 Jurassic, and Anthropic Claude through a unified interface.</p>
+                    </article>
+                    
+                    <article class="capability-card">
+                        <div class="icon">🔒</div>
+                        <h3>Enterprise Security & Governance</h3>
+                        <p>AD integrated with RBAC, fine-grained data access, multi-tenancy. Input/output validation, PII detection, bias detection, and privacy preservation with data anonymization.</p>
+                    </article>
+                    
+                    <article class="capability-card">
+                        <div class="icon">📊</div>
+                        <h3>LLM Orchestration & Monitoring</h3>
+                        <p>Advanced RAG, multi-agent orchestration, prompt engineering, chaining, routing, and memory. Application logging, LLM evaluations, and comprehensive observability framework.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Core Platform Features</h2>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>🎨 Low Code/No Code Development</h3>
+                        <p>Build GenAI applications without extensive coding. Conversational UI/UX framework with standard interface across apps, customizable UI, and AD integration. Chat, RAG, and Assistant application types supported.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🔄 LLM Orchestration Module</h3>
+                        <p>Advanced orchestration with RAG (single and multi-agent), prompt engineering, chaining, routing, and memory management. LLM cache, logging, and validation included for optimal performance.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>💾 Data Processing & Embeddings</h3>
+                        <p>Comprehensive data processing with transformation, augmentation, and pipeline management. Support for database, vector database, SharePoint, Salesforce, and object storage integrations.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🛡️ Responsible AI Framework</h3>
+                        <p>Built-in guardrails for input/output validation, PII detection, bias/fairness checks, robustness, truthfulness, and safety. Privacy preservation with data anonymization and leakage protection.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🧪 Experimentation Playground</h3>
+                        <p>Test and refine your AI applications with prompt creation/experimentation, model comparative analysis, integration of multiple tooling libraries, and designing prompt flows before deployment.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📊 Analytics & Cost Visibility</h3>
+                        <p>Comprehensive monitoring with feedback collection, conversation history, cost visibility for users, analytics for admins, and evaluation frameworks for continuous improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="use-cases">
+            <div class="container">
+                <h2>50+ Pre-Built Solutions</h2>
+                
+                <div class="use-case-grid">
+                    <div class="use-case">
+                        <h3>🏢 Industry Solutions</h3>
+                        <p><strong>Insurance & Claims:</strong> Claims policy creation assistant, Insurance claim management agent<br><br>
+                        <strong>Retail & E-Commerce:</strong> Product image/description/catalogue generation, Fashion stylist bot<br><br>
+                        <strong>Real Estate:</strong> Virtual escrow assistant</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>💼 Productivity Solutions</h3>
+                        <p><strong>Employee Assistance:</strong> Ask RMG, Ask HR, Ask Finance - AI-powered support across functions<br><br>
+                        <strong>Customer Support:</strong> Customer support & service automation<br><br>
+                        <strong>Content & Research:</strong> Digital marketing content generation (text & images), IDP - Chat with PDF, Q&A, entity extraction, form processing, Research assistants</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>💻 Engineering Solutions</h3>
+                        <p><strong>Development:</strong> Architecture design document creation, GenAI pair programming, Test case/script automation generation<br><br>
+                        <strong>DevOps & Cloud:</strong> IaC generation, Pipeline creation, GenAI powered CloudOps<br><br>
+                        <strong>Operations:</strong> Service management with AIOPS, DB query generator</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🔍 Generative Search</h3>
+                        <p>Advanced AI-powered search capabilities across your enterprise data sources. Semantic search with contextual understanding, retrieval-augmented generation, and intelligent query processing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Architecture Section -->
+        <section class="benefits">
+            <div class="container">
+                <h2>Comprehensive Technology Architecture</h2>
+                <p class="section-intro">Built on enterprise-grade infrastructure with modular, extensible components</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>🏗️ Platform Functionality</h3>
+                        <p><strong>Common Interface for All LLMs:</strong> OpenAI, Azure OpenAI, AWS Bedrock, Cohere Command, LLaMA2, AI21 Jurassic, Anthropic Claude</p>
+                        <p><strong>Security & Access:</strong> AD integrated, Role-based access control (RBAC), Fine-grained data access, Multi-tenancy</p>
+                        <p><strong>Guardrails:</strong> Input/output validation, PII detection, Biasness, Fairness, Robustness, Truthfulness, Safety</p>
+                        <p><strong>Privacy Preservation:</strong> Leakage prevention, Anonymization, IP preservation, Privacy attack protection</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>💾 Data Connectors & Storage</h3>
+                        <p><strong>Supported Data Sources:</strong> MySQL Database, Vector Database, Local directory, SharePoint, Salesforce (optional), Object storages</p>
+                        <p><strong>Data Processing:</strong> Data transformation, Data augmentation, Data pipelines and storage, Batch pipelining, Blob storage</p>
+                        <p><strong>Embedding Models:</strong> Advanced vector embeddings with multiple embedding model support</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🎯 Governance & Compliance</h3>
+                        <p><strong>Model Governance:</strong> Vetted models, Cost tracking, Feedback mechanisms, Usability monitoring</p>
+                        <p><strong>Regulatory Compliance:</strong> Data usage policies, Application integrity, User security, Compliance reporting</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🧠 LLM Orchestration & Reasoning</h3>
+                        <p><strong>RAG Implementation:</strong> Single and multi-agent RAG, Workspace setup, Context data chunking techniques, Advanced searching strategies, RAG evaluation</p>
+                        <p><strong>Agent Framework:</strong> Memory instances, Routing, Chaining, Output parser, Evaluator</p>
+                        <p><strong>Prompt Engineering:</strong> Prompt flows, Multi-agent communication, Routing and flows of user-prompts</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📊 Monitoring & Observability</h3>
+                        <p><strong>Application Monitoring:</strong> Application logging and monitoring, LLM evaluations, Comprehensive observability</p>
+                        <p><strong>Real-time Testing:</strong> Validation and evaluation frameworks, Real-time testing capabilities</p>
+                        <p><strong>LLM Security:</strong> Prompt attack detection and mitigation, Responsible AI for LLM</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>⚙️ Management Console Features</h3>
+                        <p><strong>For Developers & Prompt Engineers:</strong></p>
+                        <ul style="margin-top: 0.5rem; color: var(--text-secondary); line-height: 1.8;">
+                            <li>Experimentation playground for prompt creation and testing</li>
+                            <li>Model comparative analysis tools</li>
+                            <li>Integration of multiple tooling and libraries</li>
+                            <li>Designing and testing prompt flows</li>
+                            <li>Automation with CI/CD and versioning</li>
+                        </ul>
+                        <p style="margin-top: 1rem;"><strong>For End Users:</strong> UI-based interaction, Chat completion models, Generation models, Multi-modal support, LLM cache, logging, and validation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Considerations Section -->
+        <section class="capabilities">
+            <div class="container">
+                <h2>Design Principles & Architecture</h2>
+                
+                <div class="capability-grid">
+                    <div class="capability-card">
+                        <div class="icon">🔌</div>
+                        <h3>API-First, Serverless</h3>
+                        <p>Built with API-first architecture and serverless design for maximum scalability, flexibility, and cost efficiency across cloud providers.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🔄</div>
+                        <h3>Modular & Extensible</h3>
+                        <p>Extensible architecture integrates seamlessly with additional tools, systems, and services. Add new capabilities as your needs evolve.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🌐</div>
+                        <h3>Multi-Channel Integration</h3>
+                        <p>Seamless overlay with channels for integration with web applications, collaboration tools, and existing enterprise systems.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🎨</div>
+                        <h3>Standardized Conversational UX</h3>
+                        <p>Standard interface across all applications with customizable UI, AD integration, and consistent user experience.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">📋</div>
+                        <h3>Re-usable AI Blueprints</h3>
+                        <p>Leverage pre-built Generative AI blueprints, reusable agents, and prompt templates to accelerate development.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🔐</div>
+                        <h3>Authentication & Authorization Framework</h3>
+                        <p>Enterprise-grade authentication and authorization framework with AD integration and fine-grained access control.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Framework Components Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Core Framework Components</h2>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>🏗️ Cloud AI Infrastructure & Services</h3>
+                        <p>Built on robust cloud infrastructure with auto-scaling, load balancing, and high availability across multiple cloud providers (Azure, AWS, GCP).</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🛠️ Tools & Workflow Framework</h3>
+                        <p>Comprehensive tooling framework supporting the entire AI development lifecycle from experimentation to production deployment.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📊 Evaluations & Benchmarking Framework</h3>
+                        <p>Advanced evaluation and benchmarking capabilities to measure model performance, accuracy, and business impact continuously.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🤖 Agents Framework</h3>
+                        <p>Sophisticated multi-agent framework supporting autonomous agents, agent collaboration, memory management, and complex workflow orchestration.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>⚡ LLMOPS Framework</h3>
+                        <p>Complete MLOps for LLMs including model versioning, A/B testing, performance monitoring, cost tracking, and automated retraining pipelines.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>💬 Conversational UI/UX Framework</h3>
+                        <p>Pre-built conversational interfaces with standard components, customizable themes, multi-turn dialogue support, and rich media handling.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🛡️ Responsible AI Framework</h3>
+                        <p>Comprehensive responsible AI implementation including bias detection, fairness metrics, explainability, privacy preservation, and ethical AI guidelines.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🔒 Data Security Framework</h3>
+                        <p>Enterprise-grade security with data encryption (at rest and in transit), data anonymization, secure key management, and compliance with data protection regulations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="use-cases">
+            <div class="container">
+                <h2>Key Platform Benefits</h2>
+                
+                <div class="use-case-grid">
+                    <div class="use-case">
+                        <h3>⏱️ Rapid Deployment</h3>
+                        <p><strong>One-Click Deployment:</strong> Deploy across cloud providers instantly<br><br>
+                        <strong>50+ Pre-Built Solutions:</strong> Jump-start your AI initiatives<br><br>
+                        <strong>Low-Code Development:</strong> Build without extensive coding</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🎯 Model Flexibility</h3>
+                        <p><strong>Model Switchboard:</strong> Access all major LLMs through unified interface<br><br>
+                        <strong>No Vendor Lock-in:</strong> Switch models without code changes<br><br>
+                        <strong>Cost Optimization:</strong> Choose the right model for each use case</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🔒 Enterprise Security</h3>
+                        <p><strong>AD Integration:</strong> Seamless enterprise authentication<br><br>
+                        <strong>RBAC & Multi-tenancy:</strong> Fine-grained access control<br><br>
+                        <strong>Compliance Ready:</strong> Built-in regulatory compliance</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>📈 Complete Observability</h3>
+                        <p><strong>Real-time Monitoring:</strong> Track performance and costs<br><br>
+                        <strong>LLM Evaluations:</strong> Continuous quality assessment<br><br>
+                        <strong>Analytics Dashboard:</strong> Comprehensive insights for admins</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pre-Built Copilots & Agents -->
+        <section class="capabilities">
+            <div class="container">
+                <h2>Pre-Built Copilots & AI Agents</h2>
+                <p class="section-intro">Ready-to-deploy intelligent assistants for specific business functions</p>
+                
+                <div class="capability-grid">
+                    <div class="capability-card">
+                        <div class="icon">📊</div>
+                        <h3>GTM Copilot</h3>
+                        <p>Go-to-Market copilot to assist with market analysis, competitive intelligence, campaign planning, and sales enablement strategies.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🚀</div>
+                        <h3>Delivery Copilot</h3>
+                        <p>Project delivery assistant for project planning, resource allocation, risk management, and delivery optimization across teams.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">🔐</div>
+                        <h3>Stitch GRC Assistant</h3>
+                        <p>Governance, Risk, and Compliance assistant for regulatory compliance monitoring, risk assessment, and audit preparation.</p>
+                    </div>
+                    
+                    <div class="capability-card">
+                        <div class="icon">👥</div>
+                        <h3>Customer Agents</h3>
+                        <p>Specialized agents for customer interaction, support ticket resolution, inquiry handling, and personalized customer engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GenAI Lifecycle & Technology Fabric -->
+        <section class="features">
+            <div class="container">
+                <h2>GenAI Lifecycle Workbench - POC to Production</h2>
+                <p class="section-intro">Complete lifecycle management with integrated tools and frameworks</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>🚀 GenAI Technology Fabric</h3>
+                        <p><strong>1-Click Deployment across AWS, Azure, GCP</strong> - Deploy your GenAI applications instantly across all major cloud providers with unified deployment automation.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📚 GenAI Solution Catalogue</h3>
+                        <p><strong>Catalogue of GenAI Solution Jumpstarts</strong> - Access comprehensive library of pre-built solutions ready for immediate deployment and customization.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🎨 GenAI Custom Application Development</h3>
+                        <p><strong>Low Code/No Code Canvas</strong> - Build custom AI applications using visual development tools without extensive coding requirements.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>⚡ GenAI Refinement</h3>
+                        <p><strong>LLM Fine-tuning, SLM, Partner Stack Integration</strong> - Optimize and refine models with fine-tuning capabilities, small language models, and partner integrations.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📊 LLMOPS</h3>
+                        <p><strong>Observability, LLM Gateway, Caching, Cost Management, Feedback</strong> - Complete MLOps for LLMs with comprehensive monitoring, cost optimization, and feedback loops.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🔐 Integrated Security & Guardrails</h3>
+                        <p>Built-in security controls and guardrails throughout the entire GenAI lifecycle ensuring safe and compliant AI operations.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🔗 Integrated Platforms</h3>
+                        <p><strong>PrixM, CloudStudio</strong> - Seamless integration with Visionet's internal platforms for enhanced capabilities and streamlined workflows.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🤝 Partner Integration</h3>
+                        <p><strong>NVIDIA, AWS, Azure, GCP</strong> - Strategic partnerships with leading technology providers for best-in-class AI infrastructure and capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete Solution Catalog -->
+        <section class="capabilities">
+            <div class="container">
+                <h2>Complete Solution Catalog - 50+ Pre-Built Solutions</h2>
+                <p class="section-intro">Comprehensive solutions across all business functions</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>📊 GTM Co-Pilot (Go-to-Market)</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Sales Knowledge Hub</strong> - Centralized repository of sales enablement content</li>
+                            <li><strong>Customer Research Agent</strong> - Automated customer intelligence gathering</li>
+                            <li><strong>Marketing Email Generator</strong> - AI-powered marketing content creation</li>
+                            <li><strong>SOW Draft Generator</strong> - Statement of Work automation</li>
+                            <li><strong>RFI Assistant</strong> - Request for Information response automation</li>
+                            <li><strong>Sales Operation Agent</strong> - Sales process optimization</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>💼 Delivery & HR Copilot</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Delivery & RMG Insights</strong> - Project delivery analytics and insights</li>
+                            <li><strong>Resume Search</strong> - Intelligent resume matching and search</li>
+                            <li><strong>Opportunity Match Agent</strong> - Candidate-opportunity matching</li>
+                            <li><strong>Resume/JD/Cover Letter Creation</strong> - Automated document generation</li>
+                            <li><strong>Conversational HR Assistant</strong> - 24/7 HR support and query resolution</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>☁️ Cloud Co-pilot</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Cloud Knowledge Hub</strong> - Centralized cloud best practices and documentation</li>
+                            <li><strong>Cognitive Architect</strong> - AI-powered cloud architecture design</li>
+                            <li><strong>Cloud Migration Agent</strong> - Automated cloud migration planning</li>
+                            <li><strong>IaC Generator</strong> - Infrastructure as Code automation</li>
+                            <li><strong>FinOpsGPT</strong> - Cloud cost optimization and financial operations</li>
+                            <li><strong>AIOPS</strong> - AI-powered operations management</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>💻 Software Engineering</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Design Document Generator</strong> - Automated technical documentation</li>
+                            <li><strong>Code Buddy</strong> - AI pair programming assistant</li>
+                            <li><strong>QSUITE</strong> - Quality assurance and testing automation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🔒 Security</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>GRC Assistant</strong> - Governance, Risk, and Compliance automation</li>
+                            <li><strong>AI-Powered TPRM</strong> - Third-Party Risk Management with AI</li>
+                            <li><strong>Audit Management with Agents</strong> - Automated audit workflows</li>
+                            <li><strong>AI SOC Analyst</strong> - Security Operations Center AI assistant</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>📈 Data & Analytics</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Data Engineering Assistant</strong> - Automated data pipeline development</li>
+                            <li><strong>Conversational Data Intelligence</strong> - Natural language data querying and insights</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🏭 Industry Solutions</h3>
+                        <p><strong>Retail:</strong></p>
+                        <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+                            <li>AI Stylist - Personalized fashion recommendations</li>
+                            <li>Clientele Assistant - Customer relationship management</li>
+                            <li>E-Commerce Multimodal Search - Advanced product discovery</li>
+                        </ul>
+                        <p><strong>Healthcare & Life Sciences (HCLS):</strong></p>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li>Patient Matching to Clinical Trials - Automated trial enrollment</li>
+                            <li>Analysis of Biomarker Data - AI-powered biomarker analysis</li>
+                            <li>Medical Front Desk - Patient intake automation</li>
+                            <li>Clinical Note Summary - Automated clinical documentation</li>
+                            <li>Medical Coding Extraction - Automated medical billing codes</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h3>🖥️ ITOPS</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8;">
+                            <li><strong>Helpdesk Support Assistant</strong> - Automated IT support</li>
+                            <li><strong>Ticket Triaging</strong> - Intelligent ticket categorization and routing</li>
+                            <li><strong>Cluster Analyzer</strong> - Infrastructure analysis and optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Impact & Metrics -->
+        <section class="use-cases">
+            <div class="container">
+                <h2>Proven Platform Impact</h2>
+                <p class="section-intro">Real results from Visionet GenAI Studio deployment</p>
+                
+                <div class="use-case-grid">
+                    <div class="use-case">
+                        <h3>📦 50+ GenAI Solutions</h3>
+                        <p>Comprehensive library of pre-built solutions across all business functions ready for deployment</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🎯 10+ Customer Projects</h3>
+                        <p>Successfully delivered projects for enterprise customers across multiple industries</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>⚡ 8,000+ Queries/Day</h3>
+                        <p>Platform handles over 8,000 AI queries daily with high performance and reliability</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>👥 150+ Active Users</h3>
+                        <p>Growing community of users leveraging the platform for AI innovation</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🔢 >10 Million Tokens/Week</h3>
+                        <p>Processing over 10 million tokens weekly across all LLM models</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>⭐ >90% Positive Feedback</h3>
+                        <p>Outstanding user satisfaction with over 90% positive feedback ratings</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Value Proposition -->
+        <section class="benefits">
+            <div class="container">
+                <h2>Visionet GenAI Studio - Unified Platform for Enterprises</h2>
+                
+                <div class="benefits-grid">
+                    <div class="benefit">
+                        <h3>🏢 Unified GenAI Platform</h3>
+                        <p>Single platform for all enterprise GenAI needs - from development to production</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>🛒 Solution Marketplace</h3>
+                        <p>Pre-built solutions for consumers to accelerate time-to-value</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>🔐 Integrated Security</h3>
+                        <p>Users, data, models & application integration with enterprise-grade security</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>✅ Proven Adoption</h3>
+                        <p>Visionet internal adoption success across multiple departments</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>🎓 Customer Enablement</h3>
+                        <p>Comprehensive enablement programs to ensure customer success</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>🚀 Continuous Innovation</h3>
+                        <p>Facilitate continuous innovation & learning with regular updates</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>📱 Standard User Interface</h3>
+                        <p>Consistent, intuitive interface across all solutions and applications</p>
+                    </div>
+                    
+                    <div class="benefit">
+                        <h3>🤝 Partner Ecosystem</h3>
+                        <p>Integration with NVIDIA, AWS, Azure, GCP for best-in-class capabilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Transform Your Business with Visionet GenAI Studio?</h2>
+                <p>Join enterprises leveraging our unified GenAI platform with 50+ pre-built solutions</p>
+                <a href="contact.html" class="btn btn-primary">Schedule a Demo</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GenAI Studio</h4>
+                    <p>Enterprise Generative AI Platform</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 GenAI Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
