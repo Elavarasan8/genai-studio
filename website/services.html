@@ -58,6 +58,28 @@
       }
     }
     </script>
+
+    
+    <!-- JSON-LD for Breadcrumbs -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://genaistudio.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://genaistudio.com/services.html"
+      }]
+    }
+    </script>
+
+
     
     <!-- JSON-LD for ItemList -->
     <script type="application/ld+json">
@@ -160,6 +182,11 @@
                             <li>Tool integration framework (APIs, databases, web services)</li>
                             <li>Memory and context management systems</li>
                             <li>Agent testing and simulation environments</li>
+
+                        </ul>
+                        <p style="margin-top: 1rem;"><a href="solutions.html" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">See how AI Agents are used in different industries &rarr;</a></p>
+
+
                         </ul>
                     </div>
                     
@@ -260,6 +287,17 @@
         <section class="capabilities">
             <div class="container">
                 <h2>Professional Services</h2>
+
+                <p class="section-intro">Beyond our platform, we offer expert guidance to ensure your AI success.</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>Our Service Methodology</h3>
+                        <p>We follow a structured approach to delivering enterprise-grade AI solutions: Discovery & Assessment, Design & Architecture, Development & Iteration, Testing & Evaluation, Deployment & Scaling, and Monitoring & Optimization. This ensures that every AI initiative is aligned with business goals and delivers measurable value.</p>
+                    </div>
+                </div>
+
+
                 
                 <div class="capability-grid">
                     <article class="capability-card">
