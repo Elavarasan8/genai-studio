@@ -32,6 +32,12 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
 # Disallow sensitive areas (if any)
 Disallow: /admin/
 Disallow: /private/
@@ -41,6 +47,7 @@ Disallow: /.git/
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://genaistudio.com/sitemap.xml
-Sitemap: https://genaistudio.com/sitemap-blog.xml
+Sitemap: https://genai-studio-sepia.vercel.app/sitemap.xml
 
+# LLM Discovery
+LLMmap: https://genai-studio-sepia.vercel.app/llms.txt

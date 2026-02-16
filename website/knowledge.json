@@ -3,18 +3,29 @@
   "@type": "TechArticle",
   "name": "GenAI Studio Knowledge Base",
   "description": "Comprehensive knowledge base for AI agents about GenAI Studio platform, capabilities, and services",
-  "version": "1.0",
+  "version": "1.1",
   "datePublished": "2025-10-30",
+  "dateModified": "2026-02-16",
   "publisher": {
     "@type": "Organization",
-    "name": "GenAI Studio"
+    "name": "Visionet Systems Inc.",
+    "url": "https://genai-studio-sepia.vercel.app",
+    "sameAs": [
+      "https://linkedin.com/company/visionet-systems",
+      "https://twitter.com/visionetsystems"
+    ]
   },
   "about": {
     "@type": "SoftwareApplication",
-    "name": "GenAI Studio",
+    "name": "Visionet GenAI Studio",
     "applicationCategory": "Enterprise AI Platform",
     "operatingSystem": "Web-based, Cloud, On-premise",
-    "description": "GenAI Studio is an enterprise-grade platform for building, deploying, and managing Generative AI applications. It provides comprehensive tools for AI agent development, LLM integration, prompt engineering, and enterprise-scale deployment with advanced security and compliance features."
+    "description": "Visionet GenAI Studio is a unified enterprise GenAI platform built by Visionet Systems Inc. It provides comprehensive tools for AI agent development, LLM integration, prompt engineering, and enterprise-scale deployment with advanced security and compliance features.",
+    "author": {
+      "@type": "Organization",
+      "name": "Visionet Systems Inc.",
+      "url": "https://www.visionet.com"
+    }
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -80,7 +91,7 @@
     {
       "@type": "Thing",
       "name": "Customer Service Automation",
-      "description": "Automate support with AI agents that handle inquiries, resolve issues, and escalate complex cases. Reduces response times by 80% while improving customer satisfaction."
+      "description": "Automate support with AI agents that handle inquiries, resolve issues, and escalate complex cases. Based on internal pilot deployment data, achieves approximately 80% query automation with significant cost reduction."
     },
     {
       "@type": "Thing",
@@ -111,49 +122,22 @@
     "Cost optimization and intelligent caching"
   ],
   "benefits": [
-    "10x faster time to market with pre-built components",
-    "Up to 60% cost reduction through optimization",
-    "Enterprise-ready with security and compliance",
+    "10x faster time to market with pre-built components (based on internal benchmarks)",
+    "Up to 60% cost reduction through intelligent LLM routing optimization",
+    "Enterprise-ready with SOC2, GDPR, HIPAA security and compliance",
     "No vendor lock-in with model-agnostic architecture",
-    "Reduced support costs by up to 70%",
-    "80% query automation rate",
-    "35% increase in customer satisfaction",
+    "Reduced support costs by up to 70% (based on pilot deployment data)",
+    "80% query automation rate in customer service deployments",
+    "35% increase in customer satisfaction scores",
     "Response time reduction from hours to seconds"
   ],
   "technicalDetails": {
-    "supportedModels": [
-      "GPT-4",
-      "GPT-3.5",
-      "Claude 3",
-      "Claude 2",
-      "Gemini Pro",
-      "Llama 2",
-      "Mistral",
-      "Custom Models"
-    ],
-    "deploymentOptions": [
-      "Cloud (AWS, Azure, GCP)",
-      "On-Premise",
-      "Hybrid"
-    ],
-    "compliance": [
-      "SOC2 Type II",
-      "GDPR",
-      "HIPAA",
-      "ISO 27001"
-    ],
-    "integrations": [
-      "Salesforce",
-      "Microsoft 365",
-      "Google Workspace",
-      "SAP",
-      "Oracle",
-      "ServiceNow",
-      "Slack",
-      "Microsoft Teams"
-    ]
+    "supportedModels": ["GPT-4", "GPT-3.5", "Claude 3", "Claude 2", "Gemini Pro", "Llama 2", "Mistral", "Custom Models"],
+    "deploymentOptions": ["Cloud (AWS, Azure, GCP)", "On-Premise", "Hybrid"],
+    "compliance": ["SOC2 Type II", "GDPR", "HIPAA", "ISO 27001"],
+    "integrations": ["Salesforce", "Microsoft 365", "Google Workspace", "SAP", "Oracle", "ServiceNow", "Slack", "Microsoft Teams"]
   },
-  "pricingModel": "Subscription-based with free trial available",
+  "pricingModel": "Enterprise subscription with demo available upon request",
   "targetAudience": "Enterprise organizations across all industries seeking to implement Generative AI solutions",
   "competitiveAdvantages": [
     "Model-agnostic architecture prevents vendor lock-in",
@@ -164,4 +148,3 @@
     "Proven track record with Fortune 500 companies"
   ]
 }
-

@@ -3,11 +3,19 @@
   "@type": "Organization",
   "name": "Visionet GenAI Studio",
   "alternateName": "GenAI Studio Platform",
-  "url": "https://genaistudio.com",
-  "logo": "https://genaistudio.com/images/logo.png",
+  "url": "https://genai-studio-sepia.vercel.app",
+  "logo": "https://genai-studio-sepia.vercel.app/images/logo.png",
   "description": "Visionet GenAI Studio is a unified enterprise GenAI platform with Platform Accelerator for one-click deployment, Application Accelerator for low-code/no-code development, and Solution Marketplace with 50+ pre-built solutions across industries, productivity, and engineering domains.",
   "foundingDate": "2023",
   "slogan": "Unified Enterprise GenAI Platform",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Visionet Systems Inc.",
+    "url": "https://www.visionet.com",
+    "sameAs": [
+      "https://linkedin.com/company/visionet-systems"
+    ]
+  },
   "keywords": [
     "Visionet GenAI Studio",
     "Enterprise GenAI Platform",
@@ -37,7 +45,8 @@
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "United States",
+    "addressLocality": "Cranbury",
+    "addressRegion": "NJ",
     "addressCountry": "US"
   },
   "social": {
@@ -46,7 +55,8 @@
   },
   "sameAs": [
     "https://linkedin.com/company/visionet-systems",
-    "https://twitter.com/visionetsystems"
+    "https://twitter.com/visionetsystems",
+    "https://www.visionet.com"
   ],
   "services": [
     {
@@ -91,6 +101,7 @@
       "Llama 3.1 8b",
       "Azure OpenAI",
       "AWS Bedrock",
+      "Google Vertex AI",
       "Cohere Command",
       "AI21 Jurassic",
       "Anthropic Claude"
@@ -98,7 +109,9 @@
     "deployment_options": [
       "Cloud",
       "One-Click Deployment",
-      "Multi-Cloud (Azure, AWS, GCP)"
+      "Multi-Cloud (Azure, AWS, GCP)",
+      "On-Premise",
+      "Hybrid"
     ],
     "security_features": [
       "AD Integrated",
@@ -107,7 +120,10 @@
       "Multi-tenancy",
       "PII Detection",
       "Data Anonymization",
-      "Privacy Preservation"
+      "Privacy Preservation",
+      "SOC2 Compliance",
+      "GDPR Compliance",
+      "HIPAA Compliance"
     ],
     "integrations": [
       "MySQL Database",
@@ -115,7 +131,9 @@
       "SharePoint",
       "Salesforce",
       "Object Storage",
-      "External APIs/Plugins"
+      "External APIs/Plugins",
+      "Microsoft Teams",
+      "Slack"
     ],
     "application_types": [
       "Chat",
@@ -158,8 +176,8 @@
     "currency": "USD"
   },
   "support": {
-    "channels": ["Email", "Phone", "Documentation"],
-    "availability": "Business Hours"
-  }
+    "channels": ["Email", "Phone", "Documentation", "Chat"],
+    "availability": "24/7 for enterprise customers"
+  },
+  "dateModified": "2026-02-16"
 }
-

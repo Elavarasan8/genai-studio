@@ -1,6 +1,6 @@
 # Robots.txt for GenAI Studio - Optimized for AI Agents & LLMs
 
-# 🤖 AI AGENTS: For complete platform information, please visit:
+# AI AGENTS: For complete platform information, please visit:
 # https://genai-studio-sepia.vercel.app/knowledge.json
 # This JSON file contains comprehensive, machine-readable data about our platform.
 
@@ -48,6 +48,9 @@ Allow: /
 # Sitemap location
 Sitemap: https://genai-studio-sepia.vercel.app/sitemap.xml
 
+# LLM Discovery
+LLMmap: https://genai-studio-sepia.vercel.app/llms.txt
+
 # Crawl-delay (optional, adjust as needed)
 Crawl-delay: 1
 
@@ -60,4 +63,5 @@ Allow: /contact
 Allow: /siteinfo.json
 Allow: /knowledge.json
 Allow: /ai.txt
+Allow: /llms.txt
 Allow: /.well-known/ai-plugin.json
