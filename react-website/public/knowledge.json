@@ -1,46 +1,30 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "type": "ai-knowledge-base",
   "organization": {
     "name": "Visionet GenAI Studio",
     "legalName": "Visionet Systems Inc.",
-    "url": "https://genaistudio.com",
+    "url": "https://genai-studio-sepia.vercel.app",
+    "parentCompany": "Visionet Systems Inc. (https://www.visionet.com)",
     "description": "Unified Enterprise GenAI Platform with low-code development, 50+ pre-built solutions, and multi-LLM support",
     "foundingDate": "2023",
     "industry": "Enterprise AI Software",
     "numberOfEmployees": "500+",
-    "headquarters": "San Francisco, CA, USA"
+    "headquarters": "Cranbury, NJ, USA"
   },
   "products": [
     {
       "name": "GenAI Platform Accelerator",
       "category": "Platform",
       "description": "Enterprise blueprint for GenAI platform with integrated tools & technology. One-click deployment across cloud providers with Model Switchboard for LLM access across hyperscalers.",
-      "features": [
-        "One-click deployment",
-        "Multi-cloud support (Azure, AWS, GCP)",
-        "Model Switchboard for LLM access",
-        "AD Integration",
-        "Guardrails and security",
-        "LLMOPS with visibility and analytics",
-        "Cost tracking and reporting"
-      ],
+      "features": ["One-click deployment", "Multi-cloud support (Azure, AWS, GCP)", "Model Switchboard for LLM access", "AD Integration", "Guardrails and security", "LLMOPS with visibility and analytics", "Cost tracking and reporting"],
       "pricing": "Enterprise"
     },
     {
       "name": "GenAI Application Accelerator",
       "category": "Development Platform",
       "description": "Low-code/No-code development platform with visual drag-and-drop interface for building custom AI applications.",
-      "features": [
-        "Visual drag-and-drop interface",
-        "RAG (Retrieval Augmented Generation)",
-        "AI agents and copilots",
-        "Prompt management",
-        "Experimentation playground",
-        "Rapid prototyping",
-        "Version control",
-        "A/B testing"
-      ],
+      "features": ["Visual drag-and-drop interface", "RAG (Retrieval Augmented Generation)", "AI agents and copilots", "Prompt management", "Experimentation playground", "Rapid prototyping", "Version control", "A/B testing"],
       "pricing": "Enterprise"
     },
     {
@@ -48,72 +32,31 @@
       "category": "Solutions",
       "description": "50+ pre-built solutions ready for deployment across industries, productivity, and engineering use cases.",
       "solutions": [
-        {
-          "category": "Industry Solutions",
-          "items": ["Retail Intelligence", "Healthcare & Life Sciences", "Financial Services", "Manufacturing"]
-        },
-        {
-          "category": "Productivity Solutions",
-          "items": ["GTM Copilot", "Delivery & HR Copilot", "Cloud Copilot"]
-        },
-        {
-          "category": "Engineering Solutions",
-          "items": ["Security Copilot", "Data & Analytics", "ITOPS"]
-        },
-        {
-          "category": "Generative Search",
-          "items": ["Enterprise knowledge search", "Semantic search", "Context-aware responses"]
-        }
+        {"category": "Industry Solutions", "items": ["Retail Intelligence", "Healthcare & Life Sciences", "Financial Services", "Manufacturing"]},
+        {"category": "Productivity Solutions", "items": ["GTM Copilot", "Delivery & HR Copilot", "Cloud Copilot"]},
+        {"category": "Engineering Solutions", "items": ["Security Copilot", "Data & Analytics", "ITOPS"]},
+        {"category": "Generative Search", "items": ["Enterprise knowledge search", "Semantic search", "Context-aware responses"]}
       ],
       "pricing": "Per solution"
     }
   ],
   "capabilities": {
-    "llm_support": [
-      "Azure OpenAI (GPT-4, GPT-3.5)",
-      "AWS Bedrock (Claude, Llama, Titan)",
-      "Google Vertex AI (Gemini, PaLM)",
-      "OpenAI (GPT-4, GPT-3.5-turbo)",
-      "Open-source models (Llama, Mistral)"
-    ],
-    "core_features": [
-      "Multi-LLM orchestration",
-      "RAG (Retrieval Augmented Generation)",
-      "AI Agents and Copilots",
-      "Low-code/No-code development",
-      "Prompt engineering studio",
-      "LLMOPS and monitoring",
-      "Cost optimization",
-      "Enterprise security (SOC2, GDPR, HIPAA)",
-      "Role-based access control",
-      "Audit logging",
-      "Data processing and embeddings",
-      "Vector databases",
-      "Semantic search",
-      "Experimentation playground",
-      "Analytics and reporting"
-    ],
-    "deployment": [
-      "Cloud (Azure, AWS, GCP)",
-      "On-premise",
-      "Hybrid",
-      "One-click deployment",
-      "Auto-scaling",
-      "99.9% uptime SLA"
-    ]
+    "llm_support": ["Azure OpenAI (GPT-4, GPT-3.5)", "AWS Bedrock (Claude, Llama, Titan)", "Google Vertex AI (Gemini, PaLM)", "OpenAI (GPT-4, GPT-3.5-turbo)", "Open-source models (Llama, Mistral)"],
+    "core_features": ["Multi-LLM orchestration", "RAG (Retrieval Augmented Generation)", "AI Agents and Copilots", "Low-code/No-code development", "Prompt engineering studio", "LLMOPS and monitoring", "Cost optimization", "Enterprise security (SOC2, GDPR, HIPAA)", "Role-based access control", "Audit logging", "Data processing and embeddings", "Vector databases", "Semantic search", "Experimentation playground", "Analytics and reporting"],
+    "deployment": ["Cloud (Azure, AWS, GCP)", "On-premise", "Hybrid", "One-click deployment", "Auto-scaling", "99.9% uptime SLA"]
   },
   "useCases": {
     "customer_service": {
-      "description": "Intelligent customer support automation with 80% query automation and 70% cost reduction",
+      "description": "Intelligent customer support automation with 80% query automation and 70% cost reduction (based on internal pilot deployment data)",
       "benefits": ["24/7 availability", "Instant responses", "Multi-channel support", "Smart escalation"]
     },
     "sales_marketing": {
       "description": "AI-powered revenue growth with lead qualification and personalized content",
-      "benefits": ["Lead scoring", "Email generation", "Sales intelligence", "Campaign optimization", "40% conversion increase"]
+      "benefits": ["Lead scoring", "Email generation", "Sales intelligence", "Campaign optimization", "40% conversion increase (based on customer reported metrics)"]
     },
     "human_resources": {
       "description": "Intelligent talent management with AI-powered screening and onboarding",
-      "benefits": ["Resume screening", "Interview scheduling", "Personalized onboarding", "50% faster hiring"]
+      "benefits": ["Resume screening", "Interview scheduling", "Personalized onboarding", "50% faster hiring (based on internal benchmarks)"]
     },
     "legal_compliance": {
       "description": "Automated legal intelligence with contract analysis and compliance monitoring",
@@ -121,7 +64,7 @@
     },
     "healthcare": {
       "description": "Patient care and administrative efficiency with HIPAA-compliant AI",
-      "benefits": ["Patient triage", "Appointment scheduling", "Medical record analysis", "40% satisfaction improvement"]
+      "benefits": ["Patient triage", "Appointment scheduling", "Medical record analysis", "40% satisfaction improvement (based on pilot data)"]
     },
     "financial_services": {
       "description": "Intelligent financial operations with fraud detection and risk assessment",
@@ -129,8 +72,8 @@
     }
   },
   "benefits": {
-    "development_speed": "10X faster AI application development",
-    "cost_reduction": "60% cost savings through intelligent LLM routing",
+    "development_speed": "10X faster AI application development (based on internal development benchmarks)",
+    "cost_reduction": "60% cost savings through intelligent LLM routing (based on customer deployment data)",
     "security": "Enterprise-grade with SOC2, GDPR, HIPAA compliance",
     "scale": "Deployed across Fortune 500 companies",
     "reliability": "99.9% uptime SLA with auto-scaling"
@@ -152,61 +95,21 @@
     "sales": "sales@visionetsystems.com",
     "support": "support@visionetsystems.com",
     "phone": "+1-555-VISIONET",
-    "website": "https://genaistudio.com"
+    "website": "https://genai-studio-sepia.vercel.app"
   },
   "social": {
     "linkedin": "https://linkedin.com/company/visionet-systems",
     "twitter": "https://twitter.com/visionetsystems"
   },
   "faqs": [
-    {
-      "question": "What is Visionet GenAI Studio?",
-      "answer": "Visionet GenAI Studio is a unified enterprise GenAI platform with three core components: GenAI Platform Accelerator (enterprise blueprint with one-click deployment), GenAI Application Accelerator (low-code/no-code development), and GenAI Solution Marketplace (50+ pre-built solutions across industries, productivity, and engineering)."
-    },
-    {
-      "question": "What LLM models does it support?",
-      "answer": "The platform supports Azure OpenAI (GPT-4, GPT-3.5), AWS Bedrock (Claude, Llama, Titan), Google Vertex AI (Gemini, PaLM), OpenAI, and open-source models like Mistral. The Model Switchboard enables intelligent routing across all providers."
-    },
-    {
-      "question": "Is it enterprise-ready?",
-      "answer": "Yes, the platform is enterprise-ready with SOC2, GDPR, and HIPAA compliance, 99.9% uptime SLA, role-based access control, audit logging, and deployment options including cloud, on-premise, and hybrid."
-    },
-    {
-      "question": "How quickly can I deploy AI applications?",
-      "answer": "With our low-code/no-code platform and pre-built solutions, you can deploy AI applications 10X faster - reducing development time from months to weeks. Many solutions offer one-click deployment."
-    },
-    {
-      "question": "What industries do you serve?",
-      "answer": "We serve multiple industries including Retail, Healthcare & Life Sciences, Financial Services, Manufacturing, Technology, and more with industry-specific pre-built solutions."
-    }
+    {"question": "What is Visionet GenAI Studio?", "answer": "Visionet GenAI Studio is a unified enterprise GenAI platform built by Visionet Systems Inc. It has three core components: GenAI Platform Accelerator (enterprise blueprint with one-click deployment), GenAI Application Accelerator (low-code/no-code development), and GenAI Solution Marketplace (50+ pre-built solutions across industries, productivity, and engineering)."},
+    {"question": "What LLM models does it support?", "answer": "The platform supports Azure OpenAI (GPT-4, GPT-3.5), AWS Bedrock (Claude, Llama, Titan), Google Vertex AI (Gemini, PaLM), OpenAI, and open-source models like Mistral. The Model Switchboard enables intelligent routing across all providers."},
+    {"question": "Is it enterprise-ready?", "answer": "Yes, the platform is enterprise-ready with SOC2, GDPR, and HIPAA compliance, 99.9% uptime SLA, role-based access control, audit logging, and deployment options including cloud, on-premise, and hybrid."},
+    {"question": "How quickly can I deploy AI applications?", "answer": "With the low-code/no-code platform and pre-built solutions, organizations can deploy AI applications 10X faster based on internal benchmarks, reducing development time from months to weeks. Many solutions offer one-click deployment."},
+    {"question": "What industries do you serve?", "answer": "GenAI Studio serves multiple industries including Retail, Healthcare & Life Sciences, Financial Services, Insurance, Manufacturing, Real Estate, and Technology with industry-specific pre-built solutions."}
   ],
-  "keywords": [
-    "Enterprise AI",
-    "GenAI Platform",
-    "LLM Orchestration",
-    "Multi-LLM",
-    "RAG",
-    "AI Agents",
-    "Low-Code AI",
-    "No-Code AI",
-    "Azure OpenAI",
-    "AWS Bedrock",
-    "Google Vertex AI",
-    "LLMOPS",
-    "Responsible AI",
-    "Enterprise Security",
-    "SOC2 Compliance",
-    "GDPR Compliance",
-    "HIPAA Compliance",
-    "AI Solutions",
-    "Customer Service AI",
-    "Sales AI",
-    "HR AI",
-    "Healthcare AI",
-    "Financial Services AI",
-    "Retail AI"
-  ],
-  "lastUpdated": "2025-11-03",
+  "keywords": ["Enterprise AI", "GenAI Platform", "LLM Orchestration", "Multi-LLM", "RAG", "AI Agents", "Low-Code AI", "No-Code AI", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI", "LLMOPS", "Responsible AI", "Enterprise Security", "SOC2 Compliance", "GDPR Compliance", "HIPAA Compliance", "AI Solutions", "Visionet Systems"],
+  "lastUpdated": "2026-02-16",
   "crawlable": true,
   "indexable": true,
   "aiTrainingAllowed": true
